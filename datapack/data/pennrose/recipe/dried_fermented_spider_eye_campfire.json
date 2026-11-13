@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "ingredient": "minecraft:fermented_spider_eye",
+  "result": {
+    "id": "minecraft:fermented_spider_eye",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Dried Fermented Spider Eye"
+      },
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0.0,
+        "can_always_eat": true
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 1.6,
+        "animation": "none",
+        "sound": "minecraft:entity.generic.eat",
+        "has_consume_particles": false
+      },
+      "minecraft:item_model": "pennrose:dried_fermented_spider_eye"
+    }
+  }
+}

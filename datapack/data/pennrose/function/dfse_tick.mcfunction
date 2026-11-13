@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:happy_ghast,tag=pennrose.dfse_boost] run scoreboard players remove @s dfse_countdown 1
+execute as @e[type=minecraft:happy_ghast,tag=pennrose.dfse_boost] if score @s dfse_countdown matches ..0 run function pennrose:dfse_ghast_cleanup

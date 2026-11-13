@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "consume_dried_fermented_spider_eye": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:fermented_spider_eye"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pennrose:dfse_main"
+  }
+}
