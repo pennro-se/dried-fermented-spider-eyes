@@ -1,20 +1,6 @@
 #!/usr/bin/env bash
 
-PROJECT_NAME="dried_fermented_spider_eyes"
+PROJECT_NAME="Dried Fermented Spider Eyes"
 
-zip_datapack() {
-    rm -f /dist/${PROJECT_NAME}_data.zip
-    cd datapack
-    zip -r ../dist/${PROJECT_NAME}_data.zip *
-    cd ..
-}
-
-zip_resourcepack() {
-    rm -f /dist/${PROJECT_NAME}_resource.zip
-    cd resourcepack
-    zip -r ../dist/${PROJECT_NAME}_resource.zip *
-    cd ..
-}
-
-zip_datapack
-zip_resourcepack
+rm dist/${PROJECT_NAME}.zip
+zip -r "dist/${PROJECT_NAME}.zip" assets data pack.mcmeta pack.png
